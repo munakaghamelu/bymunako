@@ -14,7 +14,7 @@ button {
 
 header {
     display: flex;
-    width: 100%;
+    width: 90%;
     height: 10vh;
     margin: auto;
     align-items: center;
@@ -26,6 +26,10 @@ header {
 
 .logo-container{
     flex: 1;
+}
+
+.logo {
+    margin: 5px;
 }
 
 nav{
@@ -62,22 +66,25 @@ nav{
     align-items: center;
 }
 
+.cover {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    height: 60vh;
+}
+
+.cover img{
+    height: 60vh;
+    filter: drop-shadow(0px 5px 3px black);
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+}
+
 .introduction{
     flex: 1;
-}
-
-.intro-text h1 {
-    font-size: 44px;
-    font-weight: 500;
-    background: linear-gradient(to right, #494964, #474758);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
-
-.intro-text p {
-    margin-top: 5px;
-    font-size: 22ps;
-    color: black;
 }
 
 .cta {
@@ -105,11 +112,3 @@ nav{
     margin: 30px 0px 0px 30px;
 }
 
-.cover {
-    flex: 1;
-}
-
-.cover img{
-    height: 60vh;
-    filter: drop-shadow(0px 5px 3px black)
-}
