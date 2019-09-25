@@ -62,7 +62,6 @@ nav{
     display: flex;
     width: 90%;
     height: auto;
-    min-height: 80vh;
     align-items: center;
 }
 
@@ -80,6 +79,8 @@ nav{
 
 .buttons {
     display: flex;
+    width: 90%;
+    height: auto;
     align-items: center;
 }
 
@@ -88,7 +89,8 @@ nav{
 }
 
 .cta {
-    padding: 50px 0px 0px 50px;
+    align-items: center;
+    margin: 5px;
 }
 
 .cta-select{
@@ -109,6 +111,6 @@ nav{
     height: 50px;
     cursor: pointer;
     font-size: 16px;
-    margin: 30px 0px 0px 30px;
+    margin: 30px 0px 0px 150px;
 }
 
