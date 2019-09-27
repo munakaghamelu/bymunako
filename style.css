@@ -122,6 +122,7 @@ nav{
 .cover img {
     height: 100%;
     filter: drop-shadow(0px 5px 3px black);
+    animation: drop 1.5s ease;
 }
 
 .buttons {
@@ -131,5 +132,50 @@ nav{
     align-items: center;
 }
 
+.laptop-select {
+    width: 15%;
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    right: 20%;
+}
 
+@keyframes drop {
+    0%{
+        opacity: 0;
+        transform: translateY(-80px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .presentation {
+        flex-direction: column;
+    }
+    .introduction {
+        margin-top: 5vh;
+        text-align: center;
+    }
+    .into-text h1 {
+        font-size: 30px;
+    }
+    .into-text p {
+        font-size: 18px;
+    }
+    .cta { 
+        padding: 10px 0px 0px 0px;
+    }
+    .laptop-select {
+        bottom: 5%;
+        right: 50%;
+        width: 50%;
+        transform: translate(50%, 5%);
+    }
+    .cover img {
+        height: 80%;
+    }
+}
 
