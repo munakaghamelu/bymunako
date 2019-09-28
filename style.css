@@ -132,7 +132,7 @@ nav{
     align-items: center;
 }
 
-.laptop-select {
+.image-select {
     width: 15%;
     display: flex;
     justify-content: space-around;
@@ -168,7 +168,7 @@ nav{
     .cta { 
         padding: 10px 0px 0px 0px;
     }
-    .laptop-select {
+    .image-select {
         bottom: 5%;
         right: 50%;
         width: 50%;
