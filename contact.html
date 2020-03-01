@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>Artist</title>
+        <title>Contact</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width", initial-scale=1.0" />
         <meta http-equiv="X-UA-Compatible" content="ie=edge" />
@@ -10,10 +10,43 @@
     </head>
 
     <body>
-        <div class="topnav">
+
+        <div class="title">
+            <h1>MUNA K AGHAMELU</h1>
         </div>
 
-        <div class="content">
+        <div class="topnav">
+            <a href="index.html">HOME</a>
+            <a href="diaspora.html">SERIES 1</a>
+            <a href="portfolio.html">PORTFOLIO</a>
+            <a href="artist.html">ARTIST</a>
+        </div>
+
+        <div class="container">
+            <div style="text-align:center">
+                <h2> Contact Me </h2>
+                <img src="./img/artist/me.png" style="width:100%">
+            </div>
+            
+            <div class="row">
+                <div class="column">
+                    <form action="/action_page.php">
+                        <label for="fname">First name</label>
+                        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                        <label for="country">Country</label>
+                        <select id="country" name="country">
+                            <option value="UK">UK</option>
+                            <option value="UK">America</option>
+                            <option value="UK">South America</option>
+                            <option value="UK">Africa</option>
+                            <option value="UK">Asia</option>
+                        </select>
+                        <label for="subject">Subject</label>
+                        <textarea id="subject" name="subject" placeholder="Write something..." style="height:170px"></textarea>
+                        <input type="submit" value="Submit">
+                    </form>
+                </div>
+            </div>
         </div>
 
         <div class="icon-container">
@@ -25,6 +58,5 @@
                 <img class="instagram" src="./img/insta.svg" alt="instagram" width="34" height="20"/>
             </div>
         </div>
-
     </body>
 </html>
