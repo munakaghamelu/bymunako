@@ -16,11 +16,21 @@ body {
     color: #3d3635;
 }
 
+.quote {
+  display: flex;
+  justify-content: center;
+  background-color: #3d3635;
+  color: white;
+  font-size: 15px;
+  font-style: italic;
+}
+
 /* Style the icon container */
 
 .icon-container{
     display: flex;
     justify-content: space-between;
+    background-color: white;
 }
 
 .icons {
@@ -44,6 +54,45 @@ body {
     text-decoration: none;
     font-size: 17px;
 }
+
+.dropbtn {
+  background-color: #3d3635;
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #ccc;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #3d3635;}
+
+.dropdown:hover .dropdown-content { display: block; }
+
+.dropdown:hover .dropbtn { background-color: #3d3635;}
 
 /* Style the main content of the index page */
 
