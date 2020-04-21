@@ -26,59 +26,6 @@ body {
   padding-bottom: 0;
 }
 
-/* Style the social media container */
-.social-menu ul {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  padding: 0;
-  margin: 0;
-  display: flex;
-}
-.social-menu ul li {
-  list-style: none;
-  margin: 0 10px;
-}
-.social-menu ul li .fa {
-  color: #000000;
-  font-size: 25px;
-  line-height: 50px;
-  transition: .5s;
-}
-.social-menu ul li .fa:hover {
-  color: #ffffff;
-}
-.social-menu ul li a {
-  position: relative;
-  display: block;
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
-  background-color: white;
-  text-align: center;
-  transition: 0.5s;
-  transform: translate(0,0px);
-  box-shadow: 0px 7px 5px rgba(0, 0, 0, 0.5);
-}
-.social-menu ul li a:hover {
-  transform: rotate(0deg) skew(0deg) translate(0, -10px);
-}
-.social-menu ul li:nth-child(1) a:hover {
-  background-color: #3b5999;
-}
-.social-menu ul li:nth-child(2) a:hover {
-  background-color: #55acee;
-}
-.social-menu ul li:nth-child(3) a:hover {
-  background-color: #e4405f;
-}
-.social-menu ul li:nth-child(4) a:hover {
-  background-color: #cd201f;
-}
-.social-menu ul li:nth-child(5) a:hover {
-  background-color: #0077B5;
-}
 /* Style the top navigation bar */
 
 .topnav {
@@ -110,6 +57,7 @@ body {
 
 .series-1-sub-menu {
   display: none;
+  position: absolute;
 }
 
 .topnav ul li:hover .series-1-sub-menu {
@@ -142,138 +90,52 @@ body {
   color: #665a59;
 }
 
-/* Style the main content of the index page */
+/* Style the index page */
 
 .main-photo {
     width: 100%;
     height: auto;
 }
 
-/* Style the main content of the diaspora page */
-.diaspora-content {
-  position: relative;
-  padding-top: 1%;
-  padding-bottom: 1%;
-  width: 50%;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.diaspora-photo {
-  display: block;
-  width: 100%;
-  height: auto;
-}
-
-.overlay {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 100%;
-  width: 100%;
-  opacity: 0;
-  transition: .5s ease;
-  background-color: #3d3d3d;
-}
-
-.diaspora-content:hover .overlay {
-  opacity: 1;
-}
-
-.text {
-  color: white;
-  font-size: 20px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  text-align: center;
-}
-/*Style the main content of the artist page*/
-
-.artist-content{
-  margin: auto;
-  width: 70%;
-  color: #3d3635;
-}
-
-.artist-content h1{
-  text-align: center;
-}
-
-.artist-content p{
-  text-align: center;
-}
-
-/* Style the main content of the portfolio page */
+/* Style the portfolio page */
 .row {
     display: -ms-flexbox; /* IE10 */
     display: flex;
     -ms-flex-wrap: wrap; /* IE10 */
     flex-wrap: wrap;
     padding: 0 4px;
-  }
-  
-  /* Create four equal columns that sits next to each other */
-  .column {
-    -ms-flex: 25%; /* IE10 */
-    flex: 25%;
-    max-width: 25%;
-    padding: 0 4px;
-  }
-  
-  .column img {
-    margin-top: 8px;
-    vertical-align: middle;
-    width: 100%;
-  }
-  
-  /* Responsive layout - makes a two column-layout instead of four columns */
-  @media screen and (max-width: 800px) {
-    .column {
-      -ms-flex: 50%;
-      flex: 50%;
-      max-width: 50%;
-    }
-  }
-  
-  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-  @media screen and (max-width: 600px) {
-    .column {
-      -ms-flex: 100%;
-      flex: 100%;
-      max-width: 100%;
-    }
-  }
+}
 
-  /* Style main content of artist page */
+/* Create four equal columns that sits next to each other */
+.column {
+-ms-flex: 25%; /* IE10 */
+flex: 25%;
+max-width: 25%;
+padding: 0 4px;
+}
 
-/*Contact Page*/
-
-/* Style inputs */
-input[type=text], select, textarea {
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
   width: 100%;
-  padding: 12px;
-  border: 1px solid #ccc;
-  margin-top: 6px;
-  margin-bottom: 16px;
-  resize: vertical;
 }
 
-input[type=submit] {
-  background-color: #4CAF50;
-  color: white;
-  padding: 12px 20px;
-  border: none;
-  cursor: pointer;
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
 }
 
-input[type=submit]:hover {
-  background-color: #45a049;
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+.column {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
 }
 
 /* Clear floats after the columns */
@@ -290,3 +152,105 @@ input[type=submit]:hover {
     margin-top: 0;
   }
 }
+
+/*Style the artist page*/
+
+.artist-content{
+  margin: auto;
+  width: 70%;
+  color: #3d3635;
+}
+
+.artist-content h1{
+  text-align: center;
+}
+
+.artist-content p{
+  text-align: center;
+}
+
+/*Style the Series 1 page*/
+
+.diaspora-row {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+.diaspora-column {
+  -ms-flex: 25%;
+  flex: 25%;
+  max-width: 50%;
+  padding: 0 4px;
+}
+
+.diaspora-column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .diaspora-column {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .diaspora-column {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+/* Style the main content of the diaspora page */
+.diaspora-content {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.diaspora-photo {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.diaspora-content h1{
+  text-align: center;
+}
+
+.diaspora-content p{
+  text-align: center;
+  width: 90%;
+  margin: auto;
+}
+
+.diaspora-content a{
+  color: #3d3635;
+  text-decoration: none;
+}
+
+.diaspora-titles {
+  color: white;
+  background: #3d3d3d;
+  display: block;
+  margin: auto;
+  width: 90%;
+  text-align: center;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+.video {
+  display: block;
+  margin: auto;
+}
+/*Style the Shop page */
