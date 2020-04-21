@@ -23,82 +23,190 @@ body {
   color: white;
   font-size: 15px;
   font-style: italic;
+  padding-bottom: 0;
 }
 
-/* Style the icon container */
-
-.icon-container{
-    display: flex;
-    justify-content: space-between;
-    background-color: white;
+/* Style the social media container */
+.social-menu ul {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 0;
+  margin: 0;
+  display: flex;
 }
-
-.icons {
-    justify-content: right;
+.social-menu ul li {
+  list-style: none;
+  margin: 0 10px;
 }
-
+.social-menu ul li .fa {
+  color: #000000;
+  font-size: 25px;
+  line-height: 50px;
+  transition: .5s;
+}
+.social-menu ul li .fa:hover {
+  color: #ffffff;
+}
+.social-menu ul li a {
+  position: relative;
+  display: block;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: white;
+  text-align: center;
+  transition: 0.5s;
+  transform: translate(0,0px);
+  box-shadow: 0px 7px 5px rgba(0, 0, 0, 0.5);
+}
+.social-menu ul li a:hover {
+  transform: rotate(0deg) skew(0deg) translate(0, -10px);
+}
+.social-menu ul li:nth-child(1) a:hover {
+  background-color: #3b5999;
+}
+.social-menu ul li:nth-child(2) a:hover {
+  background-color: #55acee;
+}
+.social-menu ul li:nth-child(3) a:hover {
+  background-color: #e4405f;
+}
+.social-menu ul li:nth-child(4) a:hover {
+  background-color: #cd201f;
+}
+.social-menu ul li:nth-child(5) a:hover {
+  background-color: #0077B5;
+}
 /* Style the top navigation bar */
 
 .topnav {
-    overflow: hidden;
     background-color: #3d3635;
-    display: flex;
-    justify-content: center;
+    text-align: center;
   }
   
-.topnav a {
-    float: left;
+.topnav ul {
+    display: inline-flex;
+    list-style: none;
     color: #f2f2f2;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
 }
 
-.dropbtn {
-  background-color: #3d3635;
-  float: left;
+.topnav ul li {
+   width: 120px;
+   margin: 10px;
+   padding: 10px;
+ }
+
+.topnav ul li a {
+  text-decoration: none;
   color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-  border: none;
-  cursor: pointer;
 }
 
-.dropdown {
-  position: relative;
-  display: inline-block;
+.active, .topnav ul li:hover {
+  background: #665a59;
+  border-radius: 3px;
 }
 
-.dropdown-content {
+.series-1-sub-menu {
   display: none;
-  position: absolute;
-  background-color: #ccc;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
 }
 
-.dropdown-content a {
-  color: white;
-  padding: 12px 16px;
-  text-decoration: none;
+.topnav ul li:hover .series-1-sub-menu {
   display: block;
+  position: absolute;
+  background: #3d3635;
+  margin-top: 15px; 
+  margin-left: -15px;
 }
 
-.dropdown-content a:hover {background-color: #3d3635;}
+.topnav ul li:hover .series-1-sub-menu ul{
+  display: block;
+  margin: 10px;
+}
 
-.dropdown:hover .dropdown-content { display: block; }
+.topnav ul li:hover .series-1-sub-menu ul li{
+  width: 150px;
+  padding: 10px;
+  border-bottom: 1px dotted #fff;
+  background: transparent;
+  border-radius: 0;
+  text-align: center;
+}
 
-.dropdown:hover .dropbtn { background-color: #3d3635;}
+.topnav ul li:hover .series-1-sub-menu ul li:last-child{
+  border-bottom: none;
+}
+
+.topnav ul li:hover .series-1-sub-menu ul li a:hover {
+  color: #665a59;
+}
 
 /* Style the main content of the index page */
 
 .main-photo {
     width: 100%;
     height: auto;
+}
+
+/* Style the main content of the diaspora page */
+.diaspora-content {
+  position: relative;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.diaspora-photo {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #3d3d3d;
+}
+
+.diaspora-content:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+/*Style the main content of the artist page*/
+
+.artist-content{
+  margin: auto;
+  width: 70%;
+  color: #3d3635;
+}
+
+.artist-content h1{
+  text-align: center;
+}
+
+.artist-content p{
+  text-align: center;
 }
 
 /* Style the main content of the portfolio page */
@@ -167,14 +275,6 @@ input[type=submit] {
 input[type=submit]:hover {
   background-color: #45a049;
 }
-
-/* Style the container/contact section */
-.container {
-  border-radius: 5px;
-  background-color: #f2f2f2;
-  padding: 10px;
-}
-
 
 /* Clear floats after the columns */
 .row:after {

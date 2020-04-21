@@ -3,7 +3,7 @@
     <head>
         <title>Diaspora</title>
         <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width", initial-scale=1.0" />
+        <meta name="viewport" content="width=device-width", initial-scale=1.0 />
         <meta http-equiv="X-UA-Compatible" content="ie=edge" />
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins&display=swap" />
         <link rel="stylesheet" href="style.css" />
@@ -12,20 +12,34 @@
     <body>
 
         <div class="title">
-            <h1>DIASPORA</h1>
+            <h1>BY MUNA KO</h1>
         </div>
 
         <div class="topnav">
-            <a href="index.html">HOME</a>
-            <a href="portfolio.html">PORTFOLIO</a>
-            <a href="artist.html">ARTIST</a>
-            <a href="contact.html">CONTACT</a>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="portfolio.html">PORTFOLIO</a></li>
+                <li><a href="artist.html">ARTIST</a></li>
+                <li class="active"><a href="#">SERIES 1</a>
+                    <div class="series-1-sub-menu">
+                        <ul>
+                            <li><a href="./diaspora/1-floating-tribe.html">FLOATING TRIBE</a></li>
+                            <li><a href="./diaspora/2-lupita.html">LUPITA</a></li>
+                            <li><a href="./diaspora/3-erykah.html">ERYKAH</a></li>
+                            <li><a href="./diaspora/4-misrepresented.html">MISREPRESENTED</a></li>
+                            <li><a href="./diaspora/5-malcolm.html">MALCOLM</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
         </div>
 
-        <div class="content">
-        
-        <!--add info here-->
-
+        <div class="diaspora-content">
+            <img src="./img/diaspora/main.png" alt="Avatar" class="diaspora-photo">
+            <div class="overlay">
+                <div class="text">Hello World</div>
+            </div>
         </div>
 
         <div class="quote">
@@ -33,24 +47,6 @@
         </div>
 
         <br>
-
-        <div class="icon-container">
-            <img class="logo" src ="./img/logo.svg" alt="logo" width="60" height="28">
-
-            <div class="icons">
-                <a href="https://github.com/munakaghamelu">
-                <img class="github" src="./img/git.svg" alt="github" width="34" height="20"/>
-                </a>
-
-                <a href="https://www.linkedin.com/in/muna-aghamelu-310792178/">
-                <img class="linkedin" src="./img/linkedin.svg" alt="linkedin" width="34" height="20"/>
-                </a>
-
-                <a href="https://www.instagram.com/bymuna.ko/?hl=en">
-                <img class="instagram" src="./img/insta.svg" alt="instagram" width="34" height="20"/>
-                </a>
-            </div>
-        </div>
 
     </body>
 </html>
