@@ -16,17 +16,10 @@ body {
     color: #3d3635;
 }
 
-/*style quote for web*/
+/*style quote for mobile*/
 
 .quote {
-  color: white;
-  background: #3d3d3d;
-  display: block;
-  margin: auto;
-  width: 90%;
-  text-align: center;
-  padding-top: 5%;
-  padding-bottom: 5%;
+  color: pink;
 }
 
 /* Style the top navigation bar - mobile version*/
