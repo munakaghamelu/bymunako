@@ -19,13 +19,14 @@ body {
 /*style quote for web*/
 
 .quote {
-  display: flex;
-  justify-content: center;
-  background-color: #3d3635;
   color: white;
-  font-size: 15px;
-  font-style: italic;
-  background-size: auto;
+  background: #3d3d3d;
+  display: block;
+  margin: auto;
+  width: 90%;
+  text-align: center;
+  padding-top: 5%;
+  padding-bottom: 5%;
 }
 
 /* Style the top navigation bar - mobile version*/
