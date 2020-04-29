@@ -16,6 +16,8 @@ body {
     color: #3d3635;
 }
 
+/*style quote for web*/
+
 .quote {
   display: flex;
   justify-content: center;
@@ -23,7 +25,7 @@ body {
   color: white;
   font-size: 15px;
   font-style: italic;
-  padding-bottom: 0;
+  background-size: auto;
 }
 
 /* Style the top navigation bar - mobile version*/
@@ -118,6 +120,16 @@ body {
   .nav-links:hover {
     background: #665a59;
     border-radius: 0px;
+  }
+
+  .quote {
+    display: flex;
+    justify-content: center;
+    background-color: #3d3635;
+    color: white;
+    font-size: 15px;
+    font-style: italic;
+    padding-bottom: 0;
   }
 
 }
