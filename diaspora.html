@@ -5,8 +5,11 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width", initial-scale=1.0 />
         <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins&display=swap" />
         <link rel="stylesheet" href="style.css" />
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    
     </head>
 
     <body>
@@ -15,15 +18,19 @@
             <h1>BY MUNA KO</h1>
         </div>
 
-        <div class="topnav">
-            <ul>
-                <li><a href="index.html">HOME</a></li>
-                <li><a href="portfolio.html">PORTFOLIO</a></li>
-                <li><a href="artist.html">ARTIST</a></li>
-                <li class="active"><a href="#">SERIES 1</a></li>
-                <li><a href="shop.html">SHOP</a></li>
+        <nav class="topnav">
+            <span class="navbar-toggle" id="js-navbar-toggle">
+                <i class="fas fa-bars"></i>
+            </span>
+
+            <ul class="main-nav" id="js-menu">
+                <li><a href="index.html" class="nav-links">HOME</a></li>
+                <li><a href="portfolio.html" class="nav-links">PORTFOLIO</a></li>
+                <li><a href="artist.html" class="nav-links">ARTIST</a></li>
+                <li><a href="#" class="nav-links-clicked">SERIES 1</a></li>
+                <li><a href="shop.html" class="nav-links">SHOP</a></li>
             </ul>
-        </div>
+        </nav>
 
         <div class="diaspora-row">
             <div class="diaspora-column">
@@ -100,4 +107,7 @@
         <br>
 
     </body>
+
+    <script src="js/diaspora.js"></script>
+
 </html>
