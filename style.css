@@ -52,7 +52,7 @@ body {
   color: white;
   cursor: pointer;
   position: absolute;
-  top: 60px;
+  top: 53px;
   right: 20px;
 }
 
@@ -67,6 +67,34 @@ body {
   background: #665a59;
   color: white;
 }
+
+.social-media {
+  padding-top: 15px;
+  text-align: center;
+  justify-content: space-between;
+}
+
+.fa-instagram, .fa-twitter, .fa-spotify {
+  background-color: #665a59;
+  color: white;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  text-decoration: none;
+  padding-top: 12px;
+  margin-left: 10px;
+}
+
+.fa-instagram:hover, .fa-twitter:hover, .fa-spotify:hover {
+  opacity: 0.7;
+}
+
+.mobile-diaspora-banner {
+  width: 100%;
+  height: auto;
+}
+
 
 /* Desktop version */
 
@@ -115,6 +143,8 @@ body {
     text-decoration: none;
     color: #f2f2f2;
     text-align: center;
+    position: relative;
+    top: 4px;
   }
 
   .navbar-toggle {
@@ -136,6 +166,10 @@ body {
     padding-bottom: 0;
   }
 
+  .mobile-diaspora-banner {
+    display: none;
+  }
+
 }
 
 /* Style the index page */
@@ -153,6 +187,7 @@ body {
     flex-wrap: wrap;
     padding: 0 4px;
 }
+
 
 /* Create four equal columns that sits next to each other */
 .column {
@@ -301,4 +336,5 @@ padding: 0 4px;
   display: block;
   margin: auto;
 }
+
 /*Style the Shop page */
