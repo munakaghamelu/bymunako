@@ -5,7 +5,9 @@
 }
 
 body {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Calibri Light (Títulos)';
+    /*font-family: 'Poppins', sans-serif;*/
+
 }
 
 .title {
@@ -17,12 +19,26 @@ body {
 }
 
 .quote {
+  font-size: 18px;
   color: white;
   background: #3d3635;
+  display: block;
+  margin: 0px;
+  padding: 2px 2px 2px 2px;
+  width: 100%;
+  text-align: center;
+}
+
+.copyright {
+  font-size: 8px;
+  color: #3d3635;
   display: block;
   margin: auto;
   width: 100%;
   text-align: center;
+  position: fixed;
+  width: 100%;
+  bottom: 5px;
 }
 
 /* Style the top navigation bar - mobile version*/
@@ -42,6 +58,8 @@ body {
 .nav-links {
   text-decoration: none;
   color: #f2f2f2;
+  margin: 0px;
+  padding: 2px 0px 2px 0px;
 }
 
 .main-nav li {
@@ -66,6 +84,8 @@ body {
   text-decoration: none;
   background: #665a59;
   color: white;
+  padding : 0px 70px 0px 70px;
+  margin:0px;
 }
 
 .social-media {
@@ -161,9 +181,22 @@ body {
     justify-content: center;
     background-color: #3d3635;
     color: white;
-    font-size: 15px;
+    font-size: 18px;
     font-style: italic;
-    padding-bottom: 0;
+    margin: 0px;
+    padding: 5px 2px 5px 2px;
+  }
+
+  .copyright {
+    font-size: 8px;
+    color: #3d3635;
+    display: block;
+    margin: auto;
+    width: 100%;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    bottom: 5px;
   }
 
   .mobile-diaspora-banner {
@@ -260,11 +293,13 @@ padding: 0 4px;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
   padding: 0 4px;
+  margin: 0px;
+  padding: 2px 2px 2px 2px;
 }
 
 .diaspora-column {
-  -ms-flex: 25%;
-  flex: 25%;
+  -ms-flex: 20%;
+  flex: 20%;
   max-width: 50%;
   padding: 0 4px;
 }
@@ -275,12 +310,20 @@ padding: 0 4px;
   width: 100%;
 }
 
+.diaspora-column a {
+  text-decoration: none;
+}
+
 /* Responsive layout - makes a two column-layout instead of four columns */
 @media screen and (max-width: 800px) {
   .diaspora-column {
-    -ms-flex: 50%;
-    flex: 50%;
-    max-width: 50%;
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+
+  .diaspora-column a {
+    text-decoration: none;
   }
 }
 
@@ -291,13 +334,15 @@ padding: 0 4px;
     flex: 100%;
     max-width: 100%;
   }
+  .diaspora-column a {
+    text-decoration: none;
+  }
 }
 
 /* Style the main content of the diaspora page */
 .diaspora-content {
-  position: relative;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0px;
+  padding: 20px 0px 10px 0px;
 }
 
 .diaspora-photo {
@@ -311,9 +356,11 @@ padding: 0 4px;
 }
 
 .diaspora-content p{
-  text-align: center;
   width: 90%;
   margin: auto;
+  font-size: 16px;
+  text-align: center;
+  text-justify: inter-word;
 }
 
 .diaspora-content a{
@@ -323,13 +370,19 @@ padding: 0 4px;
 
 .diaspora-titles {
   color: white;
-  background: #3d3d3d;
+  background: #665a59;
   display: block;
   margin: auto;
-  width: 90%;
+  width: 100%;
   text-align: center;
-  padding-top: 5%;
-  padding-bottom: 5%;
+  padding-top: 3%;
+}
+
+.player {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .video {
