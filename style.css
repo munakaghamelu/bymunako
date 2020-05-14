@@ -420,6 +420,10 @@ padding: 0 4px;
   border-radius: 0px;
 }
 
+.diaspora-titles a {
+  color: white;
+}
+
 .player {
   width: 100%;
   display: flex;
