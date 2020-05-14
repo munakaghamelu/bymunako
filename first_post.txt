@@ -2,7 +2,7 @@ Munachimso Kosarachi Aghamelu, born in London, raised in Manchester but a Nigeri
 
 The older I get and the more spaces I come to navigate, the more I want to better understand my everyday thoughts and life experiences.
 
-As a black woman just beginning to step into the tech industry, I often think about the things that got me to where I am today and whether imposter syndrome is a real thing. As an artist, I find it easier to express my ideas on race and life through the acrylic medium. As an avid overthinker I find myself pondering on issues that don�t directly affect me but still find ways to get emotionally attached.
+As a black woman just beginning to step into the tech industry, I often think about the things that got me to where I am today and whether imposter syndrome is a real thing. As an artist, I find it easier to express my ideas on race and life through the acrylic medium. As an avid overthinker I find myself pondering on issues that don�t directly affect me but still find ways to get emotionally attached.
 
 What do I hope to achieve from this blog?
 
@@ -12,4 +12,44 @@ Share my adventures.
 Find my purpose.
 In particular, I want young black woman wanting to go into tech to find this blog, but its not only limited to this demographic. I want to create a sort of safe space for people just like me. I want to show potential is limitless, and no matter how trying life can get we can shift perspective.
 
-I am no longer accepting the things I cannot change, I am changing the things I cannot accept � Angela Davis
+I am no longer accepting the things I cannot change, I am changing the things I cannot accept � Angela Davis
+
+        <div class="shop-button">
+            <h2><a href="https://www.depop.com/hoodxpolitics/" target="_blank">CLICK HERE TO SHOP</a></h2>
+        </div>
+        
+        <div class="shop-row">
+            <div class="shop-column">
+                <img class="shop-row1" src="./img/shop/row-1.png">
+                <img class="shop-row2" src="./img/shop/row-2.png">
+                <img class="shop-row3" src="./img/shop/row-3.png">
+                <img class="shop-row4" src="./img/shop/row-4.png">
+            </div>
+
+            <div class="shop-column">
+                <img class="shop-row5" src="./img/shop/row-5.png">
+                <img class="shop-row6" src="./img/shop/row-6.png">
+                <img class="shop-row7" src="./img/shop/row-7.png">
+                <img class="shop-row8" src="./img/shop/row-8.png">
+            </div>
+        </div>
+
+        <br>
+
+        <div class="shop-info">
+            <a href="https://www.depop.com/hoodxpolitics/" target="_blank">
+                <p>
+                    <br>
+                    20x30cm Canvas Print <i>£15</i>
+                    <br><br>
+                    30x40cm Canvas Print <i>£20</i>
+                    <br><br>
+                    60x90cm Canvas Print <i>£35</i>
+                    <br><br>
+                    100% Cotton Tote Bags <i>£10</i>
+                    <br><br>
+                </p>
+            </a>
+        </div>
+
+        <br>

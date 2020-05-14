@@ -111,11 +111,6 @@ body {
   opacity: 0.7;
 }
 
-.mobile-diaspora-banner {
-  width: 100%;
-  height: auto;
-}
-
 /* Desktop version */
 
 @media screen and (min-width: 768px) {
@@ -199,10 +194,6 @@ body {
     bottom: 5px;
   }
 
-  .mobile-diaspora-banner {
-    display: none;
-  }
-
 }
 
 /* Style the index page */
@@ -279,10 +270,16 @@ padding: 0 4px;
 
 .artist-content h1{
   text-align: center;
+  margin: 0px;
+  padding: 10px 10px 10px 10px;
 }
 
 .artist-content p{
   text-align: center;
+  font-size: 18pxpx;
+  width: 100%;
+  height: 1em;
+  display: inline-block;
 }
 
 /*Style the Series 1 page*/
@@ -299,7 +296,7 @@ padding: 0 4px;
 
 .diaspora-column {
   -ms-flex: 20%;
-  flex: 20%;
+  flex: 10%;
   max-width: 50%;
   padding: 0 4px;
 }
@@ -315,6 +312,7 @@ padding: 0 4px;
 }
 
 /* Responsive layout - makes a two column-layout instead of four columns */
+
 @media screen and (max-width: 800px) {
   .diaspora-column {
     -ms-flex: 100%;
@@ -340,9 +338,30 @@ padding: 0 4px;
 }
 
 /* Style the main content of the diaspora page */
-.diaspora-content {
+
+.diaspora-content{
+  margin: auto;
+  width: 80%;
+  color: #3d3635;
+}
+
+.diaspora-content h1{
+  text-align: center;
   margin: 0px;
-  padding: 20px 0px 10px 0px;
+  padding: 10px 10px 10px 10px;
+}
+
+.diaspora-content p{
+  text-align: center;
+  font-size: 18pxpx;
+  width: 100%;
+  height: 1em;
+  display: inline-block;
+}
+
+.diaspora-content a {
+  text-decoration: none;
+  color: #3d3635;
 }
 
 .diaspora-photo {
@@ -351,31 +370,20 @@ padding: 0 4px;
   height: auto;
 }
 
-.diaspora-content h1{
-  text-align: center;
-}
-
-.diaspora-content p{
-  width: 90%;
-  margin: auto;
-  font-size: 16px;
-  text-align: center;
-  text-justify: inter-word;
-}
-
-.diaspora-content a{
-  color: #3d3635;
-  text-decoration: none;
-}
-
 .diaspora-titles {
   color: white;
   background: #665a59;
   display: block;
-  margin: auto;
   width: 100%;
   text-align: center;
-  padding-top: 3%;
+  font-size: 18px;
+  margin: auto;
+  padding-top: 2%;
+}
+
+.diaspora-titles a {
+  text-decoration: none;
+  color: white;
 }
 
 .player {
@@ -384,6 +392,46 @@ padding: 0 4px;
   justify-content: center;
   align-items: center;
 }
+
+/* 
+        
+        <a href="../diaspora.html" class="previous">&laquo; Previous</a>
+        <a href="./2-lupita.html" class="next">Next &raquo;</a>
+
+.previous {
+  background-color: #665a59;
+  color: white;
+  display: flex;
+  left: 50px;
+}
+
+.previous a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 8px 16px;
+}
+
+.previous a:hover {
+  background-color: #3d3635;
+  color: white;
+}
+
+.next {
+  background-color: #665a59;
+  color: white;
+  position: relative;
+  left: 50px;
+}
+
+.next a {
+  display: inline-block;
+  padding: 8px 16px;
+}
+
+.next a:hover {
+  background-color: #3d3635;
+  color: white;
+} */
 
 .video {
   display: block;
