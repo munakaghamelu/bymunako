@@ -382,7 +382,7 @@ padding: 0 4px;
 
 .diaspora-content p{
   text-align: center;
-  font-size: 18pxpx;
+  font-size: 16px;
   width: 100%;
   height: 1em;
   display: inline-block;
@@ -412,7 +412,7 @@ padding: 0 4px;
 
 .diaspora-column a {
   text-decoration: none;
-  color: white;
+  color:#665a59;
 }
 
 .diaspora-titles:hover {
