@@ -5,7 +5,8 @@
 }
 
 body {
-    font-family: 'Calibri Light (Títulos)';
+    /*font-family: 'Calibri Light (Títulos)';*/
+    font-family: 'Orpheus Pro';
     /*font-family: 'Poppins', sans-serif;*/
 
 }
@@ -38,13 +39,14 @@ body {
 }
 
 .quote {
-  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  background-color: #3d3635;
   color: white;
-  background: #3d3635;
-  display: block;
+  font-size: 18px;
+  font-style: italic;
   margin: 0px;
-  padding: 2px 2px 2px 2px;
-  width: 100%;
+  padding: 5px 2px 5px 2px;
   text-align: center;
 }
 
@@ -412,7 +414,7 @@ padding: 0 4px;
 
 .diaspora-column a {
   text-decoration: none;
-  color:white;
+  color: #3d3635;
 }
 
 .diaspora-titles:hover {
