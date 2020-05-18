@@ -325,6 +325,16 @@ padding: 0 4px;
   padding: 2px 2px 2px 2px;
 }
 
+.shop-row {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  padding: 0 4px;
+  margin: 0px;
+  padding: 2px 2px 2px 2px;
+}
+
 .diaspora-column {
   -ms-flex: 20%;
   flex: 10%;
@@ -440,72 +450,49 @@ padding: 0 4px;
 
 /*Style the Shop page */
 
-.shop-info {
-  color: white;
-  background:#665a59;
-  display: block;
+.shop-profile {
+  border-radius: 50%;
+  max-width: 30%;
   margin: auto;
-  width: 100%;
-  text-align: center;
+  display: block;
 }
 
-.shop-button {
+.shop-welcome {
   background-color: #665a59;
+  color: white;
+  display: block;
   text-align: center;
+  align-items: center;
+  margin: auto;
+}
+
+.shop-depop {
+  background: red;
+  width: 50%;
   color: white;
+  display: block;
+  text-align: center;
+  align-content: center;
+  margin: auto;
 }
 
-.shop-button a, .shop-info a{
-  text-decoration: none;
+.shop-etsy {
+  background: lightblue;
+  width: 50%;
   color: white;
+  display: block;
+  text-align: center;
+  align-content: center;
+  margin: auto;
 }
 
-.shop-row {
-  display: -ms-flexbox; /* IE10 */
-  display: flex;
-  -ms-flex-wrap: wrap; /* IE10 */
-  flex-wrap: wrap;
-  padding: 0 4px;
-}
-
-.shop-column {
-  -ms-flex: 25%; /* IE10 */
-  flex: 25%;
-  max-width: 50%;
-  padding: 0 4px;
-}
-
-.shop-column img {
-  margin-top: 8px;
-  vertical-align: middle;
-  width: 100%;
-}
-
-@media screen and (max-width: 800px) {
-  .shop-column {
-    -ms-flex: 50%;
-    flex: 50%;
-    max-width: 50%;
+@media screen and (min-width: 600px) {
+  .shop-profile {
+    max-width: 10%;
   }
-}
-
-@media screen and (max-width: 600px) {
-  .shop-column {
-    -ms-flex: 100%;
-    flex: 100%;
-    max-width: 100%;
-  }
-}
-
-.shop-row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-@media screen and (max-width: 600px) {
-  .shop-column, input[type=submit] {
-    width: 100%;
-    margin-top: 0;
+  .shop-welcome {
+    background-color: #665a59;
+    height: 30%;
+    width: 50%;
   }
 }
