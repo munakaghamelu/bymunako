@@ -458,6 +458,8 @@ padding: 0 4px;
 }
 
 .shop-welcome {
+  text-decoration: none;
+  text-decoration-color: red;
   color: #3d3635
   /*background-color: #665a59;*/
   display: block;
