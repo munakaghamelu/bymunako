@@ -69,7 +69,7 @@ body {
     text-align: center;
     font-size: 18px;
 }
-  
+
 .main-nav {
   list-style-type: none;
   color: #f2f2f2;
@@ -458,31 +458,11 @@ padding: 0 4px;
 }
 
 .shop-welcome {
-  background-color: #665a59;
-  color: white;
+  color: #3d3635
+  /*background-color: #665a59;*/
   display: block;
   text-align: center;
   align-items: center;
-  margin: auto;
-}
-
-.shop-depop {
-  background: red;
-  width: 50%;
-  color: white;
-  display: block;
-  text-align: center;
-  align-content: center;
-  margin: auto;
-}
-
-.shop-etsy {
-  background: lightblue;
-  width: 50%;
-  color: white;
-  display: block;
-  text-align: center;
-  align-content: center;
   margin: auto;
 }
 
@@ -491,7 +471,8 @@ padding: 0 4px;
     max-width: 10%;
   }
   .shop-welcome {
-    background-color: #665a59;
+    color: #3d3635
+    /*background-color: #665a59;*/
     height: 30%;
     width: 50%;
   }
