@@ -10,6 +10,11 @@ body {
   /*font-family: 'Poppins', sans-serif;*/
 }
 
+img {
+  max-width: 100%;
+  height: auto;
+}
+
 #myBtn {
   display: none;
   position: fixed;
@@ -38,8 +43,11 @@ body {
   align-items: center;
 }
 
-@media only screen and (max-width: 300px) /*reduce size of title if screen is smaller*/ {
-  body .title{
+@media only screen and (max-width: 300px)
+
+/*reduce size of title if screen is smaller*/
+  {
+  body .title {
     font-size: 0.5em;
   }
 }
@@ -260,7 +268,7 @@ body {
 }
 
 /* Responsive layout - makes a two column-layout instead of four columns */
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1000px) {
   .column {
     -ms-flex: 50%;
     flex: 50%;
@@ -269,7 +277,7 @@ body {
 }
 
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 800px) {
   .column {
     -ms-flex: 100%;
     flex: 100%;
@@ -285,7 +293,7 @@ body {
 }
 
 /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 800px) {
   .column, input[type=submit] {
     width: 100%;
     margin-top: 0;
@@ -342,9 +350,10 @@ body {
 }
 
 .diaspora-column img {
-  margin-top: 8px;
+  /*margin-top: 8px;*/
   vertical-align: middle;
   width: 100%;
+  height: auto;
 }
 
 .diaspora-column a {
@@ -352,7 +361,7 @@ body {
 }
 
 /* Responsive layout - makes a two column-layout instead of four columns */
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1000px) {
   .diaspora-column {
     -ms-flex: 100%;
     flex: 100%;
@@ -365,7 +374,7 @@ body {
 }
 
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 800px) {
   .diaspora-column {
     -ms-flex: 100%;
     flex: 100%;
@@ -452,11 +461,6 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-.video {
-  display: block;
-  margin: auto;
 }
 
 /*Style the Shop page */
