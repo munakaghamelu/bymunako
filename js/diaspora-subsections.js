@@ -26,17 +26,3 @@ function topFunction() {
   document.body.scrollTop = 0; //for safari
   document.documentElement.scrollTop = 0; //for chrome, ie, firefox, opera
 }
-
-$(document).ready(function() {
-  $('.fancybox').fancybox({
-    padding: 0,
-    maxWidth: '100%',
-    maxHeight: '100%',
-    width: 560,
-    height: 315,
-    autoSize: true,
-    closeClick: true,
-    openEffect: 'elastic',
-    closeEffect: 'elastic'
-  });
-});
