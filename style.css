@@ -299,7 +299,7 @@ iframe {
   clear: both;
 }
 
-/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 800px) {
   .column, input[type=submit] {
     width: 100%;
@@ -310,7 +310,7 @@ iframe {
 /*Style the artist page*/
 .artist-content {
   margin: auto;
-  width: 70%;
+  width: 80%;
   color: #3d3635;
 }
 
@@ -495,14 +495,14 @@ iframe {
 
 @media screen and (max-width: 800px) {
   .shop-profile {
-    max-width: 10%;
+    max-width: 40%;
   }
 
   .shop-welcome {
     color: #3d3635
       /*background-color: #665a59;*/
       height: 30%;
-    width: 50%;
+    width: 80%;
   }
 
   .shop-welcome a {
