@@ -15,12 +15,12 @@ img {
   height: auto;
 }
 
-/*iframe {
+iframe {
   width: 100%;
   height: auto;
   align-items: center;
   display: block;
-}*/
+}
 
 #myBtn {
   display: none;
