@@ -187,13 +187,13 @@ iframe {
   .nav-links {
     width: 120px;
     margin: 10px;
-    padding: 10px;
+    padding: 10px 30px 10px 30px;
   }
 
   .nav-links-clicked {
     width: 120px;
     margin: 10px;
-    padding: 10px;
+    padding: 10px 30px 10px 30px;
     pointer-events: none;
     cursor: default;
     text-decoration: none;
@@ -335,13 +335,16 @@ iframe {
 
 /*Style the Series 1 page*/
 .diaspora-row {
-  display: -ms-flexbox;
   display: flex;
+  justify-content: center;
+  align-items: center;
+
+  display: -ms-flexbox;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
-  padding: 0 4px;
-  margin: 0px;
-  padding: 2px 2px 2px 2px;
+
+  padding: 10px 10px 10px 10px;
+
 }
 
 .shop-row {
@@ -448,7 +451,7 @@ iframe {
   color: white;
   background: #665a59;
   display: block;
-  width: 100%;
+  width: 90%;
   text-align: center;
   font-size: 18px;
   margin: auto;
