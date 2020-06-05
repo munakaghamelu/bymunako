@@ -334,10 +334,14 @@ iframe {
 }
 
 /*Style the Series 1 page*/
+.background-for-buttons {
+  width: 100%;
+  background-color: : #f2f2f2;
+}
+
 .diaspora-row {
   display: flex;
   justify-content: center;
-  align-items: center;
 
   display: -ms-flexbox;
   -ms-flex-wrap: wrap;
