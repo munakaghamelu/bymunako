@@ -334,10 +334,6 @@ iframe {
 }
 
 /*Style the Series 1 page*/
-.background-for-buttons {
-  width: 100%;
-  background-color: : #f2f2f2;
-}
 
 .diaspora-row {
   display: flex;
@@ -449,6 +445,19 @@ iframe {
   display: block;
   width: 100%;
   height: auto;
+}
+
+.background {
+  display: flex;
+  justify-content: center;
+
+  display: -ms-flexbox;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+
+  padding: 10px 10px 10px 10px;
+  background-color: #3d3635;
+  width: 100%;
 }
 
 .diaspora-titles {
