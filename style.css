@@ -46,8 +46,12 @@ iframe {
   justify-content: center;
   padding-bottom: 10;
   background-color: white;
-  color: #3d3635;
   align-items: center;
+}
+
+.title a {
+  text-decoration: none;
+  color: #3d3635;
 }
 
 @media only screen and (max-width: 300px)
@@ -246,6 +250,7 @@ iframe {
 .main-photo {
   width: 100%;
   height: auto;
+  display: block;
 }
 
 /* Style the portfolio page */
@@ -286,9 +291,9 @@ iframe {
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 800px) {
   .column {
-    -ms-flex: 100%;
-    flex: 100%;
-    max-width: 100%;
+    -ms-flex: 25%;
+    flex: 25%;
+    max-width: 25%;
   }
 }
 
@@ -302,7 +307,7 @@ iframe {
 /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 800px) {
   .column, input[type=submit] {
-    width: 100%;
+    width: 25%;
     margin-top: 0;
   }
 }
