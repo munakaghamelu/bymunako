@@ -5,9 +5,7 @@
 }
 
 body {
-  /*font-family: 'Calibri Light (Títulos)';*/
   font-family: 'Orpheus Pro';
-  /*font-family: 'Poppins', sans-serif;*/
 }
 
 img {
@@ -50,11 +48,11 @@ iframe {
 
 .title a {
   text-decoration: none;
-  /*color: #3d3635;*/
+  color: #3d3635;
 
-  background: -webkit-linear-gradient(#665a59, #3d3635);
+  /*background: -webkit-linear-gradient(#665a59, #3d3635);
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  -webkit-text-fill-color: transparent;*/
 }
 
 @media only screen and (max-width: 300px)
