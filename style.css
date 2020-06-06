@@ -86,7 +86,8 @@ iframe {
 
 /* Style the top navigation bar - mobile version*/
 .topnav {
-  background-image: linear-gradient(#3d3635, #5c4f4d);
+  background-color: #3d3635;
+  /*background-image: linear-gradient(#3d3635, #5c4f4d);*/
   text-align: center;
   font-size: 18px;
 }
@@ -220,7 +221,8 @@ iframe {
   .quote {
     display: flex;
     justify-content: center;
-    background-image: linear-gradient(#3d3635, #5c4f4d);
+    background-color: #3d3635;
+    /*background-image: linear-gradient(#3d3635, #5c4f4d);*/
     color: white;
     font-size: 18px;
     font-style: italic;
