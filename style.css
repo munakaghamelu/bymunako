@@ -163,7 +163,7 @@ iframe {
 }
 
 /* Desktop version */
-@media screen and (min-width: 650px) {
+@media screen and (min-width: 800px) {
   .topnav {
     display: inline-block;
     background-color: #3d3635;
