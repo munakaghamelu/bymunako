@@ -140,7 +140,7 @@ iframe {
 }
 
 .fa-instagram, .fa-twitter, .fa-spotify {
-  background-color: #665a59;
+  background-image: linear-gradient(#665a59, #3d3635);
   color: white;
   border-radius: 50%;
   width: 40px;
@@ -333,17 +333,13 @@ iframe {
 }
 
 /*Style the Series 1 page*/
-
 .diaspora-row {
   display: flex;
   justify-content: center;
-
   display: -ms-flexbox;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
-
   padding: 10px 10px 10px 10px;
-
 }
 
 .shop-row {
@@ -449,11 +445,9 @@ iframe {
 .background {
   display: flex;
   justify-content: center;
-
   display: -ms-flexbox;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
-
   padding: 10px 10px 10px 10px;
   background-image: linear-gradient(#3d3635, #665a59);
   width: 100%;
