@@ -44,7 +44,6 @@ iframe {
 .title {
   display: flex;
   justify-content: center;
-  padding-bottom: 10;
   background-color: white;
   align-items: center;
 }
@@ -456,7 +455,7 @@ iframe {
   flex-wrap: wrap;
 
   padding: 10px 10px 10px 10px;
-  background-color: #3d3635;
+  background-image: linear-gradient(#3d3635, #665a59);
   width: 100%;
 }
 
