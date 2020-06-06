@@ -50,7 +50,11 @@ iframe {
 
 .title a {
   text-decoration: none;
-  color: #3d3635;
+  /*color: #3d3635;*/
+
+  background: -webkit-linear-gradient(#665a59, #3d3635);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 @media only screen and (max-width: 300px)
