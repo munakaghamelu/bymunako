@@ -109,7 +109,15 @@ iframe {
   text-align: center;
 }
 
+.colour-for-banner {
+  background-color: #665a59;
+  width: 100%;
+}
+
 .navbar-toggle {
+  background: #665a59;
+  padding: 10px 10px 10px 10px;
+  margin: 0px;
   color: white;
   cursor: pointer;
   position: absolute;
