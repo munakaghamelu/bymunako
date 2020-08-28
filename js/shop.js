@@ -125,7 +125,6 @@ function scrollFunction () {
         myButton.style.display = "none";
     }
 }
-
 //when user clicks on the button, it'll scroll to the top of the document
 
 function topFunction() {
