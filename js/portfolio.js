@@ -1,11 +1,3 @@
-let mainNav = document.getElementById('js-menu');
-
-let navBarToggle = document.getElementById('js-navbar-toggle');
-
-navBarToggle.addEventListener('click', function () {
-    mainNav.classList.toggle('active');
-});
-
 myButton = document.getElementById("myBtn"); //get the button
 
 window.onscroll = function() {scrollFunction()}; //when user scrolls down 20px from top, show button
@@ -24,3 +16,11 @@ function topFunction() {
     document.body.scrollTop = 0; //for safari
     document.documentElement.scrollTop = 0; //for chrome, ie, firefox, opera
 }
+
+let mainNav = document.getElementById('js-menu');
+
+let navBarToggle = document.getElementById('js-navbar-toggle');
+
+navBarToggle.addEventListener('click', function () {
+    mainNav.classList.toggle('active');
+});
