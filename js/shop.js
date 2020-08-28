@@ -1,4 +1,5 @@
 // Make remove buttons remove from our cart
+
 if (document.readyState == 'loading') {
     document.addEventListener('DOMContentLoaded', ready)
 } else {
@@ -113,8 +114,7 @@ function addItemToCart(title, price, imageSrc) {
 }
 
 // Toggle + Top
-
-myButton = document.getElementById("myBtn"); //get the button
+var myButton = document.getElementById("myBtn"); //get the button
 
 window.onscroll = function() {scrollFunction()}; //when user scrolls down 20px from top, show button
 
